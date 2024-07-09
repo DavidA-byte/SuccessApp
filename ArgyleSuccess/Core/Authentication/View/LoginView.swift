@@ -19,11 +19,6 @@ struct LoginView: View {
         NavigationStack {
             VStack{
                 //image
-                Image("argyleeagles-logo")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 175, height: 140)
-                    .padding(.vertical, 15)
                 
                 //form fields
                 VStack(spacing: 24){
